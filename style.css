@@ -334,18 +334,56 @@ body{
  @media screen and (max-width: 576px){
 
 
-    .container, .nav-list, .navbar, .work-container{
-        flex-direction: column;
-        }
-        .banner{
-        max-width: 96%;
-        }
-        .banner-container{
-        padding-top: 10px;
-        padding-bottom: 10px;
-        }
-            
+.container, .nav-list, .navbar, .work-container{
+flex-direction: column;
+}
+.banner{
+max-width: 96%;
+}
+.banner-container{
+padding-top: 10px;
+padding-bottom: 10px;
+}
 
+        
+.hero-text {
+    max-width: 50%;
+ }
+ 
+ .hero-text h1 {
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+ }
+ 
+ .hero-text p {
+    font-size: 0.5rem;
+    font-weight: 400;
+    color: #c6c5c5;
+ }
+ .hero-buttons{
+    margin-top: 3px;
+ }
+ .btn-primary{
+    padding: 5px 10px;
+    margin-right: 5px;
+    font-size: 0.5rem;
+    font-weight: 400;
+    border-radius: 25px;
+ }
+ .btn-secondary{
+    font-weight: 400;
+    font-size: 0.3rem;
+ }
+ .hero-image {
+    max-width: 50%;
+    margin-top: 30px;
+ }
+ 
+ .hero-image img {
+    width: 100%;
+ }
+  
 
  }
  

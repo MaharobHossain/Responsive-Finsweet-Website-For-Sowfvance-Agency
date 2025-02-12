@@ -438,6 +438,9 @@ padding-bottom: 10px;
  .work-right{
     grid-template-columns: repeat(1, 1fr);
  }
+ .project-heading{
+   padding: 13px;
+ }
  .pro-titel{
     font-size: 1.5rem;
     font-weight: 500;
@@ -456,9 +459,9 @@ padding-bottom: 10px;
  .view-project{
     flex-direction: column;
     margin: 0 auto;
+    padding: 10px;
  }
  .project-bg-img{
-    /* width: 600px; */
     width: 97%;
     height: 380px;
  }
@@ -489,11 +492,23 @@ padding-bottom: 10px;
    padding-top: 30px;
  }
  .side-box1{
-    padding-bottom: 45px;
+   margin-bottom: 30px;
  
  }
  .side-box2{
-    padding-bottom: 45px;
+    margin-bottom: 45px;
+ }
+ .Features-headding{
+   padding: 20px;
+ }
+ .Features-titel{
+   font-size: 1.4rem;
+   font-weight: 500;
+ }
+ .Features-boxes{
+   display: flex;
+   flex-direction: column;
+   padding: 15px;
  }
  
  

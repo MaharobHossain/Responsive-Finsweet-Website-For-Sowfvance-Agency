@@ -439,33 +439,26 @@ body{
    max-width: 1280px;
    margin: 10px auto;
  }
- 
  .faq-header {
    max-width: 328px;
  }
- 
  .faq-header h2 {
    font-size: 2.4rem;
    font-weight: 600;
    color: #282938;
  }
- 
  .faq-header a {
    font-size: 1.1rem;
    color: #2405F2;
    text-decoration: none;
  }
- 
- 
  .faq-items {
    max-width: 846px;
    padding-left: 85px;
  }
- 
  .faq-item {
    border-bottom: 1px solid #ddd;
  }
- 
  .faq-question {
    display: flex;
    justify-content: space-between;
@@ -473,13 +466,11 @@ body{
    padding: 15px 0;
    cursor: pointer;
  }
- 
  .faq-question span {
    color: #2405F2;
    font-weight: 500;
    font-size: 1.25rem;
  }
- 
  .faq-question h3 {
    flex: 1;
    font-size: 1.37rem;
@@ -487,12 +478,10 @@ body{
    margin: 0 10px;
    color: #282938;
  }
- 
  .faq-question .toggle {
    font-size: 1.12rem;
    color: #6C63FF;
  }
- 
  .faq-answer {
    padding: 10px 0 15px;
    display: none;
@@ -527,7 +516,7 @@ body{
  @media screen and (max-width: 576px){
 
 
-.container, .nav-list, .navbar, .work-container{
+.container, .nav-list, .navbar, .work-container, .faq-section{
 flex-direction: column;
 }
 .banner{
@@ -536,9 +525,7 @@ max-width: 96%;
 .banner-container{
 padding-top: 10px;
 padding-bottom: 10px;
-}
-
-        
+}       
 .hero-text {
     max-width: 50%;
  }
@@ -548,7 +535,6 @@ padding-bottom: 10px;
     font-weight: 500;
     color: white;
  }
- 
  .hero-text p {
     font-size: 0.5rem;
     font-weight: 400;
@@ -572,11 +558,9 @@ padding-bottom: 10px;
     max-width: 50%;
     margin-top: 30px;
  }
- 
  .hero-image img {
     width: 100%;
  }
-
  .work-container{
     text-align: center;
  }
@@ -590,7 +574,6 @@ padding-bottom: 10px;
     font-size: 1.5rem;
     font-weight: 500;
  }
- 
  .project-titel{
     font-size: 1.6rem;
  }
@@ -638,7 +621,6 @@ padding-bottom: 10px;
  }
  .side-box1{
    margin-bottom: 30px;
- 
  }
  .side-box2{
     margin-bottom: 45px;
@@ -658,7 +640,6 @@ padding-bottom: 10px;
  .clients-review{
    max-width: 98%;
    border: 1px solid rgba(0, 0, 0, 0.2);
-
  }
  .clients-review-boxes{
    flex-direction: column;
@@ -681,6 +662,40 @@ padding-bottom: 10px;
  }
  .client-box2-review{
    font-size: 1.4rem;
+ }
+ .faq-section{
+   text-align: center;
+   margin: 20px 20px;
+ }
+ .faq-header{
+   text-align: center;
+   padding-left: 20px;
+ }
+ .faq-items {
+   margin-top: 70px;
+   padding-left: 5px;
+ }
+ .faq-question span {
+   font-size: 1.2rem;
+ }
+ .faq-question h3 {
+   flex: 1;
+   font-size: 1.3rem;
+   font-weight: 400;
+ }
+ .faq-question .toggle {
+   font-size: 1.1rem;
+   color: #6C63FF;
+ }
+ .faq-answer {
+   padding: 10px 0 15px;
+   display: none;
+   color: #555;
+   font-size: 0.8rem;
+ }
+ .faq-answer p{
+   font-size: 1rem;
+   font-weight: 400;
  }
  
  

@@ -316,7 +316,30 @@ body{
  .side-box2 > img{
     width: 100%;
  }
- 
+
+
+ /* Features section style */
+
+ .Features{
+   background-color: rgba(244, 246, 252, 1);
+ }
+ .Features-headding{
+   max-width: 630px;
+   margin: 0 auto;
+   padding-top: 100px;
+   text-align: center;
+ }
+ .Features-head-name{
+   font-size: 1rem;
+   font-weight: 500;
+   color: rgba(40, 41, 56, 1);
+ }
+ .Features-titel{
+   font-size: 3rem;
+   font-weight: 600;
+   color: rgba(40, 41, 56, 1);
+
+ }
  
  
 

@@ -427,6 +427,28 @@ padding-bottom: 10px;
     font-weight: 500;
     color: white;
  }
+ .pimk-description{
+    font-size: 0.7rem;
+    font-weight: 400;
+    color: white;
+ }
+ .pink-bar{
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: rgba(252, 217, 128, 1);
+ }
+ .side-coloum-box{
+   padding-top: 30px;
+ }
+ .side-box1{
+    padding-bottom: 45px;
+ 
+ }
+ .side-box2{
+    padding-bottom: 45px;
+ }
+ 
+ 
   
 
  }

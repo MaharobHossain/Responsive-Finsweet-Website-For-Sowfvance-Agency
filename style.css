@@ -62,3 +62,73 @@ body{
     font-size: 1.01rem;
   } 
   
+  
+ /* Banner section style */
+ .banner{
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+  .banner-container{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    gap: 40px;
+ 
+  }
+  
+ .hero-text {
+    max-width: 582px;
+ }
+ 
+ .hero-text h1 {
+    font-size: 3.3rem;
+    font-weight: 600;
+    color: white;
+ }
+ 
+ .hero-text p {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #c6c5c5;
+ }
+ .hero-buttons{
+    margin-top: 35px;
+ }
+ .btn-primary{
+    padding: 11px 40px;
+    margin-right: 25px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    font-family: Manrope;
+    text-decoration: none;
+    color: #1c1f4a;
+    background-color: #FCD980;
+    border: none;
+    border-radius: 25px;
+    /* transition: transform 2s; */
+ }
+ .btn-primary:hover{
+    background-color: aquamarine;
+    color: black;
+ }
+ 
+ .btn-secondary{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 1rem;
+ }
+ .btn-secondary:hover{
+    font-size: 1.1rem;
+ }
+ 
+ .hero-image {
+    max-width: 683px;
+    margin-top: 90px;
+ }
+ 
+ .hero-image img {
+    width: 100%;
+    max-height: 320px;
+ }
+ 

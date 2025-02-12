@@ -214,4 +214,109 @@ body{
     color: rgba(40, 41, 56, 1);
  }
  
+
+
+ /* Project section style */
+ 
+
+ .project-heading{
+    /* max-width: 1280px;
+    margin: 0 auto; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+ }
+ .project-titel{
+    font-size: 3rem;
+    font-weight: 600;
+    color: rgba(40, 41, 56, 1);
+ }
+ .project-bar{
+    font-size: 1rem;
+    align-items: center;
+    font-weight: 500;
+    color: rgba(40, 41, 56, 1);
+ }
+ .full-project{
+    max-width: 1280px;
+    margin: 0 auto;
+ }
+ .view-project{
+ 
+    display: flex;
+    gap: 30px;
+ }
+ 
+ .project-bg-img{
+    width: 843px;
+    height: 600px;
+    background-image: url(Images/Card.jpg);
+    background-repeat: no-repeat;
+ }
+ .project-bg-pink-img{
+    max-width: 396px;
+    height: 600px;
+    background-image: url(Images/Rectangle\ 1316.png);
+    background-repeat: no-repeat;
+ }
+ .pink-project-details{
+    padding-top: 300px;
+    padding-left: 40px;
+ }
+ .pink-titel{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+ }
+ .pimk-description{
+    font-size: 1rem;
+    font-weight: 500;
+    /* line-height: 28px; */
+    color: white;
+ }
+ .pink-bar{
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgba(252, 217, 128, 1);
+    /* align-items: center; */
+ }
+ .pink-bar-icon{
+    padding-left: 15px;
+ }
+ 
+ .side-box1{
+    max-width: 405px;
+    height: 284px;
+    background-image: url(Images/Rectangle\ 1313.jpg);
+ }
+ .side-pink-box{
+    max-width: 405px;
+    height: 284px;
+    background-image: url(Images/Rectangle\ 1317.png);
+ }
+ .side-pink-box-details{
+    padding-left: 48px;
+    padding-top: 85px;
+ }
+ .side-box-titel{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+ }
+ .side-box-barr{
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgba(252, 217, 128, 1);
+ }
+ .side-box2{
+    max-width: 405px;
+    height: 284px;
+ }
+ .side-box2 > img{
+    width: 100%;
+ }
+ 
+ 
+ 
  

@@ -15,3 +15,50 @@
 body{
     margin: 0;
 } 
+
+
+
+
+                   /* Header Section Style*/
+
+/* Navbar section style */
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+     justify-content: space-between;
+     align-items: center;
+  }                  
+  .container .logo>h2{
+     font-size: 1.9rem;
+     font-weight: 700;
+     color: white;
+  } 
+  .nav-list{
+     gap: 35px;
+  }
+  .nav-item{
+     list-style: none;
+  } 
+  #main-nav-item{
+     color: white;
+  }
+  .nav-link{
+     text-decoration: none;
+     color: rgba(187, 187, 203, 1);
+  }   
+  .contact-button{
+     color: white;
+     font-size: 1rem;
+     font-weight: 500;
+     border: 2px solid rgba(244, 246, 252, 0.37);
+     margin-left: 35px;
+     padding: 0px 50px;
+     border-radius: 41px;
+  }  
+  .contact-button:hover{
+    background-color: aquamarine;
+    color: black;
+    padding: 1px 55px;
+    font-size: 1.01rem;
+  } 
+  

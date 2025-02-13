@@ -641,6 +641,7 @@ body{
 .nav-list, 
 .navbar, 
 .work-container, 
+.Building-section,
 .faq-section{
 flex-direction: column;
 }
@@ -828,6 +829,16 @@ gap: 10px;
  .faq-answer p{
    font-size: 1rem;
    font-weight: 400;
+ }
+ .left-section {
+   max-width: 98%;
+   margin: 0 auto;
+   padding: 20px;
+ }
+ .right-section {
+   max-width: 98%;
+   margin: 0 auto;
+   padding: 20px;
  }
  
  

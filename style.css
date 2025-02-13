@@ -516,53 +516,64 @@ body{
  @media screen and (max-width: 576px){
 
 
-.container, .nav-list, .navbar, .work-container, .faq-section{
+.container, 
+.nav-list, 
+.navbar, 
+.work-container, 
+.faq-section{
 flex-direction: column;
 }
 .banner{
 max-width: 96%;
 }
 .banner-container{
-padding-top: 10px;
-padding-bottom: 10px;
+padding-top: 25px;
+padding-bottom: 15px;
+gap: 10px;
 }       
 .hero-text {
-    max-width: 50%;
+    max-width: 55%;
  }
  
  .hero-text h1 {
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-weight: 500;
     color: white;
  }
  .hero-text p {
     font-size: 0.5rem;
     font-weight: 400;
-    color: #c6c5c5;
  }
  .hero-buttons{
-    margin-top: 3px;
+    margin-top: 0px;
  }
  .btn-primary{
-    padding: 5px 10px;
-    margin-right: 5px;
+    padding: 3px 8px;
+    margin-right: 3px;
     font-size: 0.5rem;
-    font-weight: 400;
+    font-weight: 600;
     border-radius: 25px;
  }
  .btn-secondary{
     font-weight: 400;
-    font-size: 0.3rem;
+    font-size: 0.5rem;
+ }
+ .pink-bar-icon{
+    max-width: 15px;
+    margin-left: -12px;
  }
  .hero-image {
-    max-width: 50%;
-    margin-top: 30px;
+    max-width: 40%;
+    margin-top: 12px;
  }
  .hero-image img {
     width: 100%;
  }
  .work-container{
     text-align: center;
+ }
+ .work-left{
+   margin-left: 10px;
  }
  .work-right{
     grid-template-columns: repeat(1, 1fr);

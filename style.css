@@ -616,19 +616,18 @@ body{
 
  
  .blog-section {
-   width: 1280px;
+   max-width: 1280px;
    margin: 0 auto;
  }
- 
- .blog-section h1 {
+ .blog-section-titel h1{
    font-size: 3rem;
    font-weight: 600;
    color: #282938;
  }
  
  .blog-cards {
+   max-width: 1280px;
    display: flex;
-   flex-wrap: wrap;
    justify-content:space-between;
  }
  
@@ -835,11 +834,11 @@ gap: 10px;
     margin-bottom: 45px;
  }
  .Features-headding{
-   padding: 20px;
+   padding: 15px;
  }
  .Features-titel{
    font-size: 1.4rem;
-   font-weight: 500;
+   font-weight: 600;
  }
  .Features-boxes{
    display: flex;
@@ -916,6 +915,17 @@ gap: 10px;
    margin: 0 auto;
    padding: 20px;
  }
+ .blog-cards{
+   flex-direction: column;
+   margin-left: 10px;
+ }
+ .blog-section h1{
+   margin-left: 10px;
+ }
+ .blog-card{
+   margin-top: 30px;
+ }
+ 
  
  
   

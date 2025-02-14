@@ -614,7 +614,6 @@ body{
 
  /* Blog section style */
 
- 
  .blog-section {
    max-width: 1280px;
    margin: 0 auto;
@@ -624,13 +623,11 @@ body{
    font-weight: 600;
    color: #282938;
  }
- 
  .blog-cards {
    max-width: 1280px;
    display: flex;
    justify-content:space-between;
  }
- 
  .blog-card {
    max-width: 405px;
    background-color: #fff;
@@ -638,16 +635,13 @@ body{
    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
    text-align: left;
  }
- 
  .blog-card img {
    width: 100%;
    height: auto;
  }
- 
  .blog-content {
    padding: 20px;
  }
- 
  .blog-content .date {
    font-size: 1rem;
    font-weight: 500;
@@ -655,21 +649,18 @@ body{
    color: rgba(40, 41, 56, 1);
    margin-bottom: 10px;
  }
- 
  .blog-content h2 {
    font-size: 1.5rem;
    font-weight: 400;
    line-height: 33px;
    color: #282938;
  }
- 
  .blog-content p {
    font-size: 1rem;
    font-weight: 400;
    line-height: 23px;
    color: #282938;
  }
- 
  .read-more {
    text-decoration: none;
    font-size: 1rem;
@@ -678,10 +669,61 @@ body{
    color: #282938;
    transition: color 0.3s ease;
  }
- 
  .read-more:hover {
    color: #0056b3;
  }
+
+
+
+                 /* Footer section Style-Desing */
+
+  /* footer banner section  style */
+
+
+
+
+
+  /* footer navbar section style */
+
+  .footer-bottom-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1280px;
+    background-color: #ffffff;
+    color: #333333;
+    margin: 0 auto;
+    border-top: 1px solid #ddd;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 28px;
+    color: rgba(40, 41, 56, 1);
+    
+  }
+  
+  .footer-nav {
+    display: flex;
+    gap: 25px;
+  }
+  
+  .footer-nav a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 28px;
+    color: rgba(40, 41, 56, 1);
+    transition: color 0.3s ease;
+  }
+  
+  .footer-nav a:hover {
+    color: #1d6dc2;
+  }
+
+
 
 
 

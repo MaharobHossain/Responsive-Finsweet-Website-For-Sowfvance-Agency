@@ -678,9 +678,97 @@ body{
                  /* Footer section Style-Desing */
 
   /* footer banner section  style */
-
-
-
+  .footer {
+    width: 100%;
+  }
+  .footer-blue-box{
+    background-color: #1C1E53;
+  }
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1280px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+  .footer-left {
+    color: #ffffff;
+    margin-top: 3px;
+  }
+  .footer-right {
+    flex: 1;
+    color: #ffffff;
+    margin-top: 20px;
+    margin-left: 150px;
+  }
+  .footer-left h2 {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+  }
+  .footer-right h2 {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+  }
+  .footer-left p{
+    max-width: 399px;
+    opacity: 80%;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 0;
+  }
+  .footer-right p {
+    max-width: 399px;
+    opacity: 80%;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0;
+  }
+  .contact-box {
+    max-width: 517px;
+    background-color: #FCD980;
+    display: flex;
+    justify-content: space-between;
+    padding: 17px 137px 16px 37px;
+    margin-top: 90px;
+  }
+  .contact-item h3 {
+    font-size: 1.12rem;
+    font-weight: 500;
+    line-height: 22px;
+    color: #282938;
+  }
+  .contact-item p {
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 22px;
+    color: #282938;
+  }
+  .contact-item2{
+    margin-left: 40px;
+  }
+  .footer-right .social-icons {
+    margin-top: 20px;
+  }
+  .footer-right .social-icons a {
+    margin-right: 20px;
+    display: inline-block;
+  }
+  .footer-right .social-icons img {
+    max-width: 25px;
+    height: 25px;
+    color: #FFFFFF;
+  }
+  .social-icons img:hover{
+    transform: translateY(-3px);
+  }
+  
 
 
   /* footer navbar section style */

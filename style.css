@@ -744,7 +744,6 @@ body{
     color: #282938;
   }
   .contact-item p {
-    font-family: Poppins;
     font-size: 1rem;
     font-weight: 400;
     line-height: 22px;
@@ -768,7 +767,7 @@ body{
   .social-icons img:hover{
     transform: translateY(-3px);
   }
-  
+
 
 
   /* footer navbar section style */
@@ -784,11 +783,11 @@ body{
     border-top: 1px solid #ddd;
   }
   
-  .footer-bottom p {
+  .footer-bottom-container p {
     margin: 0;
     font-size: 1rem;
     font-weight: 500;
-    line-height: 28px;
+    line-height: 80px;
     color: rgba(40, 41, 56, 1);
     
   }
@@ -1055,10 +1054,49 @@ gap: 10px;
  .blog-card{
    margin-top: 30px;
  }
+ .footer-container {
+  flex-direction: column;
+ }
+ .contact-box {
+  max-width: 92%;
+  flex-direction: column;
+  padding: 5px 10px 15px 40px;
+  margin-top: 45px;
+}
+.contact-item2{
+  margin-left: 0;
+}
+.footer-left{
+  /* margin-top: 30px; */
+  margin-left: 15px;
+}
+.footer-right {
+  margin-top: 10px;
+  margin-left: 15px;
+  margin-bottom: 20px;
+}
+.footer-bottom-container{
+  flex-direction: column;
+}
+.footer-bottom-container p {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 90px;
+}
+.footer-nav{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.footer-nav {
+  gap: 15px;
+  margin-bottom: 15px;
+}
+.footer-nav a {
+  font-size: 1.2rem;
+  line-height: 18px;
+}
  
- 
- 
-  
 
  }
  

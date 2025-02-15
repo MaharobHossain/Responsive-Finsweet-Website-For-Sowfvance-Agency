@@ -799,11 +799,23 @@ body{
     margin: 0;
     font-size: 1rem;
     font-weight: 500;
-    line-height: 80px;
+    line-height: 65px;
     color: rgba(40, 41, 56, 1);
     
   }
-  
+  .creadit{
+    margin: 0;
+    font-size: 0.5rem;
+    font-weight: 500;
+    line-height: 80px;
+    color: rgba(40, 41, 56, 1);
+    text-decoration: none;
+  }
+  .creadit > a{
+    text-decoration: none;
+    color: rgba(36, 5, 242, 1);
+    font-size: 1.3rem;
+  }
   .footer-nav {
     display: flex;
     gap: 25px;
@@ -1164,7 +1176,19 @@ gap: 10px;
   margin: 0;
   font-size: 1.5rem;
   font-weight: 500;
-  line-height: 90px;
+  line-height: 45px;
+}
+.creadit{
+  padding-bottom: 35px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  line-height: 20px;
+
+}
+.creadit > a{
+  text-decoration: none;
+  color: rgba(36, 5, 242, 1);
+  font-size: 1.8rem;
 }
 .footer-nav{
   display: grid;
@@ -1176,7 +1200,9 @@ gap: 10px;
 }
 .footer-nav a {
   font-size: 1.2rem;
+  font-weight: 700;
   line-height: 18px;
+  text-align: center;
 }
  
 

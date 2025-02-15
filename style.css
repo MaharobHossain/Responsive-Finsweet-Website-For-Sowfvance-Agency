@@ -996,11 +996,12 @@ gap: 10px;
  .work-right{
     grid-template-columns: repeat(1, 1fr);
  }
- .project-heading{
-   padding: 13px;
+ .full-project{
+  width: 96%;
+  margin: 0 auto;
  }
  .pro-titel{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 500;
  }
  .project-titel{
@@ -1009,17 +1010,18 @@ gap: 10px;
  .project-bar{
     font-size: 0.5rem;
     align-items: center;
+    margin: 0;
  }
  .arrow-img{
-    width: 16%;
+    width: 17%;
  }
  .view-project{
     flex-direction: column;
     margin: 0 auto;
-    padding: 10px;
+    /* padding: 10px; */
  }
  .project-bg-img{
-    width: 97%;
+    width: 100%;
     height: 380px;
  }
  .project-bg-pink-img{
@@ -1049,10 +1051,10 @@ gap: 10px;
    padding-top: 30px;
  }
  .side-box1{
-   margin-bottom: 30px;
+   margin-bottom: 20px;
  }
  .side-box2{
-    margin-bottom: 45px;
+    margin-bottom: 35px;
  }
  .Features{
   width: 96%;

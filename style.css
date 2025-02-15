@@ -1097,27 +1097,36 @@ gap: 10px;
    font-size: 1.4rem;
  }
  .faq-section{
+   width: 96%;
    text-align: center;
-   margin: 20px 20px;
+   margin: 0 auto;
+   padding-bottom: 20px;
  }
  .faq-header{
    text-align: center;
-   padding-left: 20px;
+   margin:0 auto;
  }
+ .faq-header h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+.faq-header a {
+  font-size: 1rem;
+}
  .faq-items {
-   margin-top: 70px;
-   padding-left: 5px;
+   margin-top: 50px;
+   padding-left: 1px;
  }
  .faq-question span {
-   font-size: 1.2rem;
+   font-size: 1rem;
  }
  .faq-question h3 {
    flex: 1;
-   font-size: 1.3rem;
+   font-size: 1rem;
    font-weight: 400;
  }
  .faq-question .toggle {
-   font-size: 1.1rem;
+   font-size: 1rem;
    color: #6C63FF;
  }
  .faq-answer {
@@ -1127,8 +1136,12 @@ gap: 10px;
    font-size: 0.8rem;
  }
  .faq-answer p{
-   font-size: 1rem;
+   font-size:0.8rem;
    font-weight: 400;
+ }
+ .Building-section{
+  width: 96%;
+  margin: 0 auto;
  }
  .left-section {
    max-width: 98%;

@@ -1067,34 +1067,41 @@ gap: 10px;
    padding: 15px;
  }
  .clients-review{
-   max-width: 98%;
+   max-width: 96%;
    border: 1px solid rgba(0, 0, 0, 0.2);
+   height: 100%;
+   margin: 0 auto;
  }
  .clients-review-boxes{
    flex-direction: column;
-   gap: 10px;
- }
- .clients-review{
-   height: 580px;
+   gap: 0px;
+
  }
  .clients-review-box1{
-   padding-left: 35px;
    padding-top: 30px;
-   margin: 0;
+   text-align: center;
+   margin: 0 auto;
+   height: 140px;
+   
  }
  .client-box1-titel{
-   text-align: center;
-   align-items: center;
-   font-size: 1.9rem;
+   font-size: 1.6rem;
+   padding: 0;
+   margin: 0;
  }
  .client-box1-description{
-   text-align: center;
+   font-size: 0.8rem;
+   padding: 0;
+   margin: 0;
  }
  .clients-review-box2{
-   padding: 25px;
+    padding: 30px;
+   /* text-align: center;
+   margin: 0 auto; */
  }
  .client-box2-review{
-   font-size: 1.4rem;
+   font-size: 1.3rem;
+   margin: 0;
  }
  .faq-section{
    width: 96%;
@@ -1105,10 +1112,12 @@ gap: 10px;
  .faq-header{
    text-align: center;
    margin:0 auto;
+   padding-top: 25px;
  }
  .faq-header h2 {
   font-size: 1.8rem;
   font-weight: 600;
+  margin: 0;
 }
 .faq-header a {
   font-size: 1rem;

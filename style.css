@@ -864,7 +864,10 @@ body{
 .faq-section{
 flex-direction: column;
 }
-
+.container{
+  width: 96%;
+  margin: 0 auto;
+}
 .container .logo>h2{
   margin-left: 15px;
   font-size: 1.5rem;

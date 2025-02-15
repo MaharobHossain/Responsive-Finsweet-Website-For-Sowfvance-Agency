@@ -163,13 +163,11 @@ body{
     background-color: #F4F6FC;
     padding-bottom: 150px;
  }
- 
  .work-left {
     max-width: 405px;
     height: 184px;
     margin-top: 80px;
  } 
- 
  .work-left h2 {
     font-family: Poppins;
     font-size: 3rem;
@@ -177,7 +175,6 @@ body{
     color: #282938;
     margin-bottom: 20px;
  }
- 
  .work-left p {
     font-family: Poppins;
     font-size: 1rem;
@@ -186,7 +183,6 @@ body{
     opacity: 70%;
     margin-bottom: 20px;
  }
- 
  .work-left a {
     color: #2405F2;
     text-decoration: none;
@@ -194,8 +190,6 @@ body{
     font-size: 1.1rem;
     font-weight: 500;
  }
- 
- 
  .work-right {
     display: grid; 
     grid-template-columns: repeat(2, 1fr);
@@ -204,15 +198,12 @@ body{
     margin-left: 50px;
  }
  .work-step{
-    
     color: #7f85ab;
     max-width: 328px;
     max-height: 178px;
     padding: 25px 5px;
     border-radius: 5px;
-    
  }
- 
  .work-step h3{
      font-family: Poppins;
      font-size: 2.12rem;
@@ -220,7 +211,6 @@ body{
      color: #282938;
      margin: 12px 0;
  }
- 
  .work-step p{
     font-family: Poppins;
     font-size: 1rem;
@@ -983,18 +973,61 @@ gap: 10px;
     width: 100%;
  }
  .work-container{
-    text-align: center;
-
-  max-width: 1280px;
+  text-align: center;
+  width: 96%;
   margin: 0 auto;
   gap: 10px;
-  padding-bottom: 50px;
+  padding-bottom: 40px;
 }
+.how-we-work{
+  gap: 5px;
+}
+.work-left h2 {
+  font-size: 2.3rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.work-left p {
+  width: 80%;
+  font-size: 0.9rem;
+  font-weight: 400;
+  margin: 0 auto;
+  margin-bottom: 13px;
+}
+.work-left a {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+.work-right {
+  grid-template-columns: repeat(1, 1fr);
+  gap: 50px;
+  margin: 0 auto;
+}
+/* .work-step{
+  color: #7f85ab;
+  max-width: 328px;
+  max-height: 178px;
+  padding: 25px 5px;
+  border-radius: 5px;
+}
+.work-step h3{
+   font-family: Poppins;
+   font-size: 2.12rem;
+   font-weight: 500;
+   color: #282938;
+   margin: 12px 0;
+}
+.work-step p{
+  font-family: Poppins;
+  font-size: 1rem;
+  font-weight: 400;
+  color: rgba(40, 41, 56, 1);
+} */
+
+
+
  .work-left{
    margin: 0;
- }
- .work-right{
-    grid-template-columns: repeat(1, 1fr);
  }
  .full-project{
   width: 96%;

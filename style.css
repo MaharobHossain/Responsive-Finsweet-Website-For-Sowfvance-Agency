@@ -1054,11 +1054,15 @@ gap: 10px;
  .side-box2{
     margin-bottom: 45px;
  }
+ .Features{
+  width: 96%;
+  margin: 0 auto;
+ }
  .Features-headding{
    padding: 15px;
  }
  .Features-titel{
-   font-size: 1.4rem;
+   font-size: 1.3rem;
    font-weight: 600;
  }
  .Features-boxes{

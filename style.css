@@ -852,8 +852,7 @@ body{
 
  @media screen and (max-width: 576px){
 
-
-.container, 
+ 
 .nav-list, 
 .navbar, 
 .work-container, 
@@ -861,6 +860,67 @@ body{
 .faq-section{
 flex-direction: column;
 }
+
+.container .logo>h2{
+  margin-left: 15px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: white;
+} 
+
+nav ul{
+  position: fixed;
+  top: 65px;
+  left: -100%;
+  background-color: rgb(143, 60, 168);
+  height: 100vh;
+  width: 100%;
+  display:flex;
+  flex-direction: column;
+  /* display: block; */
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+#click:checked ~ ul{
+  left: 0;
+}
+nav ul li{
+  margin: 10px 0;
+}
+nav ul li a{
+  font-size: 1.3rem;
+  font-weight: 600;
+  /* display: block; */
+}
+nav ul li a:hover{
+  color: rgb(5, 242, 250);
+  background: none;
+}
+
+
+
+.contact-button{
+  color: white;
+  font-size: 0.7rem;
+  font-weight: 500;
+  border: 2px solid rgba(244, 246, 252, 0.37);
+  margin-right: 10px;
+  padding: 5px 18px;
+  border-radius: 41px;
+}  
+.contact-button:hover{
+  background-color: aquamarine;
+  color: black;
+  padding: 4px 17px;
+  font-size: 0.7rem;
+  margin-right: 27px;
+} 
+.menu-btn i{
+  display: block;
+  margin-right: 25px;
+}
+
 .banner{
 max-width: 96%;
 }

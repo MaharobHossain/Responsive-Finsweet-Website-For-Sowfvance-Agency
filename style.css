@@ -26,16 +26,19 @@ body{
 .container{
   max-width: 1280px;
   margin: 0 auto;
-   justify-content: space-between;
-   align-items: center;
+  justify-content: space-between;
+  align-items: center;
 }                  
 .container .logo>h2{
-   font-size: 1.9rem;
+   font-size: 2.3rem;
    font-weight: 700;
    color: white;
 } 
+nav{
+  margin-right: -340px;
+}
 .nav-list{
-   gap: 35px;
+   gap: 38px;
 }
 .nav-item{
    list-style: none;
@@ -83,8 +86,8 @@ body{
     margin: 0 auto;
   }
   .banner-container{
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 70px;
+    padding-bottom: 150px;
     gap: 40px;
  
   }
@@ -869,12 +872,13 @@ flex-direction: column;
   margin: 0 auto;
 }
 .container .logo>h2{
-  margin-left: 15px;
+  margin-left: 1px;
   font-size: 1.5rem;
   font-weight: 600;
-  color: white;
 } 
-
+nav{
+  margin-right: -5px;
+}
 nav ul{
   position: fixed;
   top: 65px;
@@ -909,7 +913,6 @@ nav ul li a:hover{
   font-size: 0.7rem;
   font-weight: 500;
   border: 2px solid rgba(244, 246, 252, 0.37);
-  margin-right: 10px;
   padding: 5px 18px;
   border-radius: 41px;
 }  
@@ -922,15 +925,15 @@ nav ul li a:hover{
 } 
 .menu-btn i{
   display: block;
-  margin-right: 25px;
+  margin-right: 3px;
 }
 
 .banner{
 max-width: 96%;
 }
 .banner-container{
-padding-top: 5px;
-padding-bottom: 12px;
+padding-top: 6px;
+padding-bottom: 22px;
 gap: 10px;
 }       
 .hero-text {
@@ -969,7 +972,7 @@ gap: 10px;
     margin-left: -12px;
  }
  .hero-image {
-    max-width: 40%;
+    max-width: 42%;
     margin-top: 12px;
  }
  .hero-image img {
